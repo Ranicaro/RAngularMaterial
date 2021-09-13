@@ -8,6 +8,7 @@ import { TablaComponent } from './page/tabla/tabla.component';
 import { TabloComponent } from './page/tablo/tablo.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule,
+    BrowserAnimationsModule,
     MatTableModule,
     MatProgressBarModule
   ],
